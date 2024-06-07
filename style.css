@@ -1,3 +1,92 @@
-p {
-    
+
+@font-face {
+    font-family: 'Shapiro';
+    src: url('./fonts/Shapiro/OGJ Type Design - Shapiro 5 Light Fly.ttf') format('truetype'),
+         url('./fonts/Shapiro/OGJ Type Design - Shapiro 5 Light Fly.otf') format('opentype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Shapiro';
+    src: url('./fonts/Shapiro/OGJ Type Design - Shapiro 35 Feather Text.ttf') format('truetype'),
+         url('./fonts/Shapiro/OGJ Type Design - Shapiro 35 Feather Text.otf') format('opentype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+  }
+  
+/*@font-face {
+    font-family: 'Shapiro';
+    src: url('./fonts/Shapiro/OGJ Type Design - Shapiro 97 Air Extd.ttf') format('truetype'),
+         url('./fonts/Shapiro/OGJ Type Design - Shapiro 97 Air Extd.otf') format('opentype');
+    font-weight: 700; /* bold*/
+/*    font-style: normal;
+}*/
+
+
+body {
+    font-family: 'Shapiro', sans-serif;
+    background-color: #f6e9b2;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #3f3f3f;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #9ca8ca;
+}
+
+.header {
+    margin-top: 0;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background: #0A6847;
+    font-size: 40px;
+}
+
+/* defines menu block*/
+.menu {
+    background-color: #7aba78;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a.active {
+    color: #0a6847;
+}
+
+.home {
+    text-align: center;
+    margin: 10px;
+    padding: 20px 80px;
+}
+
+footer {
+    padding: 50px;
+    text-align: center;    
 }
