@@ -80,8 +80,14 @@ nav a:hover {
     color: #0a6847;
 }
 
-.home {
+.centerd {
     text-align: center;
+    margin: 10px;
+    padding: 20px 80px;
+}
+
+.leftd {
+    text-align: left;
     margin: 10px;
     padding: 20px 80px;
 }
