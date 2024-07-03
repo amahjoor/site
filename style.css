@@ -46,7 +46,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #9ca8ca;
+    color: #0b2109;
 }
 
 .header {
@@ -54,7 +54,7 @@ nav a:hover {
     padding: 50px;
     text-align: center;
     color: white;
-    background: #0A6847;
+    background: #064207;
     font-size: 40px;
 }
 
